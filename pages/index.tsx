@@ -1,4 +1,8 @@
-/** Add your relevant code here for the issue to reproduce */
+import Button from '@test-babel-compiled/component/button'; // link to compiled code in root dir
+
 export default function Home() {
-  return null
+  return <>
+    <h1>I'm not working in --turbo!</h1>
+    <Button onClick={() => alert('Clicked!')}>click me!</Button>
+  </>
 }

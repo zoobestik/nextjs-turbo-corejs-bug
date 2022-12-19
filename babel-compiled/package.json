@@ -1,0 +1,8 @@
+{
+  "name": "component",
+  "version": "1.0.0",
+  "main": "button.js",
+  "dependencies": {
+    "core-js": "^3.26.1"
+  }
+}
